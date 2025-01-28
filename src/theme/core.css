@@ -1,0 +1,67 @@
+.ios {
+    --ion-background-color: #1d1da1; 
+}
+
+.md {
+    --ion-background-color: linear-gradient(90deg, #474ad6, #080d4e);
+}
+ion-toolbar {
+    --background: linear-gradient(45deg, #3838af, #16213e, #1a1a2e);
+    --color: #ffdd00; 
+    --border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(49, 42, 42, 0.3);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 4px rgba(231, 10, 10, 0.6); 
+}
+ion-item {
+    --background: linear-gradient(90deg, #4949f3, #070a3b);
+    --border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 4px 12px rgba(5, 5, 5, 0.2);
+    border: 1px solid #ffca2c;
+}
+
+ion-item:hover {
+    --background: linear-gradient(90deg, #b1b1b1, #f5c32c); 
+    --box-shadow: 0 6px 14px rgba(58, 36, 36, 0.4);
+    transform: scale(1.03); 
+}
+
+ion-item ion-label {
+    color: #ffdd00; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); 
+    font-size: 18px; 
+    font-weight: 900; 
+    letter-spacing: 1.8px; 
+    text-transform: uppercase; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+body {
+    --background: #ffffff; 
+    color: #e4e6eb; 
+    font-family: 'Poppins', sans-serif;
+}
+
+ion-button {
+    --background: linear-gradient(45deg, #cccc40, #1e2c50); 
+    --color: #ffdd00; 
+    text-shadow: 1px 1px 3px rgba(8, 4, 4, 0.5); 
+    --border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    transition: all 0.4s ease-in-out;
+}
+
+ion-button:hover {
+    --background: linear-gradient(45deg, #405386, #f5c32c); 
+    --box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
